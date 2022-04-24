@@ -49,3 +49,4 @@ color.pop(3)
 print(color)
 #b
 color[3]="Purple"
+print(color)
