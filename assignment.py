@@ -15,21 +15,14 @@ print("The person has to pay",tax)
 
 #Q3 store different data types in a string
 
-n1=int(input("Number of students"))
-lts=["Sid","Name","Gender","CourseName","CGPA"]
-for i in range(n1):
-    nlst=[]
-    Sid=int(input("Enter sid:"))
-    Name=input("Enter name:")
-    Gender=input("Enter the gender:")
-    cname=input("Enter the course name:")
-    cg=float(input("Enter CGPA:"))
-    nlst.append(Sid)
-    nlst.append(Name)
-    nlst.append(Gender)
-    nlst.append(cg)
-    print(lts)
-    print(nlst)
+Sid=int(input("Enter sid:"))
+Name=input("Enter name:")
+Gender=input("Enter the gender:")
+cname=input("Enter the course name:")
+cg=float(input("Enter CGPA:"))
+lts=[Sid,Name,Gender,cname,cg]
+print(lts)
+
 
 
 #Q4 marks of 5 students
